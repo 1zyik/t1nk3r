@@ -79,10 +79,10 @@ extra:
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/1zyik
-    - icon: fontawesome/brands/twitter
+    - icon: fontawesome/brands/youtube
       link: https://github.com/1zyik
     - icon: fontawesome/brands/linkedin
-      link: https://github.com/1zyik
+      link: https://www.linkedin.com/in/isaac-cloudengineer/
   # Cookies block for consent
   consent:
     title: Cookie consent
@@ -98,7 +98,7 @@ copyright: |
 # Navigation Setup
 nav:
   - Home: https://1zyik.github.io/t1nk3r/
-  - Knowledge Base:
+  - Knowledge Base: 
       - 'Start Here':
         - 'Welcome': index.md
       - 'Scripting':
@@ -106,10 +106,12 @@ nav:
         - 'Powershell': sections/scripting/powershell.md
       - 'DevOps':
         - 'ArgoCD': sections/devops/argocd.md
+        - 'AWS': sections/devops/aws.md
+        - 'Azure': sections/devops/azure.md
       - 'SRE':
         - 'Azure Monitor': sections/sre/azure-monitor.md
       - 'Linux':
         - 'Ubuntu': sections/linux/ubuntu.md
-  - Amazon Wishlist: https://www.amazon.com/hz/wishlist/ls/HZ7MRWUN7T3B?ref_=wl_share 
+  - Amazon Wishlist: https://www.amazon.com/hz/wishlist/ls/HZ7MRWUN7T3B?ref_=wl_share
   - LinkedIn: https://www.linkedin.com/in/isaac-cloudengineer/
   - GitHub: https://github.com/1zyik
