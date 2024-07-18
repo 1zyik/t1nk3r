@@ -97,7 +97,7 @@ copyright: |
 
 # Navigation Setup
 nav:
-  - Home: https://1zyik.github.io/mkdocs/
+  - Home: https://1zyik.github.io/t1nk3r/
   - Knowledge Base:
       - 'Start Here':
         - 'Welcome': index.md
@@ -110,3 +110,6 @@ nav:
         - 'Azure Monitor': sections/sre/azure-monitor.md
       - 'Linux':
         - 'Ubuntu': sections/linux/ubuntu.md
+  - Amazon Wishlist: https://www.amazon.com/hz/wishlist/ls/HZ7MRWUN7T3B?ref_=wl_share 
+  - LinkedIn: https://www.linkedin.com/in/isaac-cloudengineer/
+  - GitHub: https://github.com/1zyik

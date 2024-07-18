@@ -15,7 +15,7 @@ source venv/bin/activate
 pip install mkdocs-material
 
 # Run locally
-mkdocs server
+mkdocs serve
 ```
 
 Enjoy!!!
