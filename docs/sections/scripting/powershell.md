@@ -32,4 +32,4 @@ Set-TimeZone -Name "Central Standard Time"
 
 ## Unzip multiple files into a single location
 
-## 
+## Set a single service account to multiple windows services

@@ -103,11 +103,13 @@ nav:
         - 'Welcome': index.md
       - 'Scripting':
         - 'Bash': sections/scripting/bash.md
+        - 'Command Prompt': sections/scripting/cmd-prompt.md
         - 'Powershell': sections/scripting/powershell.md
       - 'DevOps':
         - 'ArgoCD': sections/devops/argocd.md
         - 'AWS': sections/devops/aws.md
         - 'Azure': sections/devops/azure.md
+        - 'Docker': sections/devops/docker.md
       - 'SRE':
         - 'Azure Monitor': sections/sre/azure-monitor.md
       - 'Linux':
