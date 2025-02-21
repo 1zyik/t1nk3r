@@ -15,6 +15,7 @@ theme:
     - navigation.instant.progress
     - navigation.tracking
     - navigation.path
+    - navigation.indexes
     - toc.integrate
     - toc.follow
     - search.suggest
@@ -44,6 +45,7 @@ theme:
 # Plugins here
 plugins: 
   - search
+  - swagger-ui-tag
 
 # Markdown Extensions
 markdown_extensions: 
@@ -93,11 +95,10 @@ extra:
       make our documentation better.
 
 copyright: |
-  &copy; 2024 <a href="https://github.com/1zyik" target="_blank" rel="noopener">Isaac Adepitan</a> 
+  &copy; 2025 <a href="https://github.com/1zyik" target="_blank" rel="noopener">Isaac Adepitan</a> 
 
 # Navigation Setup
 nav:
-  - Home: https://1zyik.github.io/t1nk3r/
   - Knowledge Base: 
       - 'Start Here':
         - 'Welcome': index.md
@@ -112,8 +113,10 @@ nav:
         - 'Docker': sections/devops/docker.md
       - 'SRE':
         - 'Azure Monitor': sections/sre/azure-monitor.md
+      - 'CLI Utilities':
+        - 'GPG': sections/utilities/gpg.md
       - 'Linux':
         - 'Ubuntu': sections/linux/ubuntu.md
-  - Amazon Wishlist: https://www.amazon.com/hz/wishlist/ls/HZ7MRWUN7T3B?ref_=wl_share
-  - LinkedIn: https://www.linkedin.com/in/isaac-cloudengineer/
-  - GitHub: https://github.com/1zyik
+  - Blog:
+      - blog/index.md
+      - Tags: blog/tags.md
