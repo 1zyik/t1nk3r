@@ -45,7 +45,6 @@ theme:
 # Plugins here
 plugins: 
   - search
-  - swagger-ui-tag
 
 # Markdown Extensions
 markdown_extensions: 
@@ -100,12 +99,13 @@ copyright: |
 # Navigation Setup
 nav:
   - Knowledge Base: 
-      - 'Start Here':
+      - 'Welcome':
         - 'Welcome': index.md
       - 'Scripting':
         - 'Bash': sections/scripting/bash.md
         - 'Command Prompt': sections/scripting/cmd-prompt.md
         - 'Powershell': sections/scripting/powershell.md
+        - 'Python': sections/scripting/python.md
       - 'DevOps':
         - 'ArgoCD': sections/devops/argocd.md
         - 'AWS': sections/devops/aws.md
@@ -114,9 +114,9 @@ nav:
       - 'SRE':
         - 'Azure Monitor': sections/sre/azure-monitor.md
       - 'CLI Utilities':
-        - 'GPG': sections/utilities/gpg.md
+        - 'AWS-Cli': sections/utilities/aws-cli.md
+        - 'Eksctl': sections/utilities/eksctl.md
+        - 'Gpg': sections/utilities/gpg.md
+        - 'Kubectl': sections/utilities/kubectl.md
       - 'Linux':
         - 'Ubuntu': sections/linux/ubuntu.md
-  - Blog:
-      - blog/index.md
-      - Tags: blog/tags.md

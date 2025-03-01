@@ -1,12 +1,5 @@
 icon: material/powershell
 
----
-date:
-  created: 2023-12-31
----
-## Powershell Overview
-Welcome to the my not so comprehensive PowerShell documentation, designed to empower users with the essential knowledge and practical insights into harnessing the power of PowerShell for various tasks. Whether you're a beginner or an advanced user, this documentation covers a wide range of topics, enjoy!
-
 ## Get list of all installed windows server optional features
 ```
 Get-WindowsOptionalFeature -Online | where {$_.state -eq "Enabled"} | ft -Property featurename
