@@ -23,3 +23,22 @@ icon: material/aws
     ]
 }
 ```
+# Single User S3 Access Policy
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::{account-id}:user/{user}"
+            },
+            "Action": "s3:*",
+            "Resource": [
+                "arn:aws:s3:::{bucket-name}",
+                "arn:aws:s3:::{bucket-name}/*"
+            ]
+        }
+    ]
+}
+```

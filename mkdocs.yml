@@ -114,9 +114,10 @@ nav:
       - 'SRE':
         - 'Azure Monitor': sections/sre/azure-monitor.md
       - 'CLI Utilities':
-        - 'AWS-Cli': sections/utilities/aws-cli.md
-        - 'Eksctl': sections/utilities/eksctl.md
-        - 'Gpg': sections/utilities/gpg.md
-        - 'Kubectl': sections/utilities/kubectl.md
+        - 'aws-cli': sections/utilities/aws-cli.md
+        - 'eksctl': sections/utilities/eksctl.md
+        - 'git': sections/utilities/git.md         
+        - 'gpg': sections/utilities/gpg.md
+        - 'kubectl': sections/utilities/kubectl.md
       - 'Linux':
         - 'Ubuntu': sections/linux/ubuntu.md
