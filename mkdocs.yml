@@ -108,7 +108,8 @@ nav:
         - 'Python': sections/scripting/python.md
       - 'DevOps':
         - 'ArgoCD': sections/devops/argocd.md
-        - 'AWS': sections/devops/aws.md
+        - 'AWS':
+          - 'IAM Policies': sections/devops/iam-policies/iam-policies.md
         - 'Azure': sections/devops/azure.md
         - 'Docker': sections/devops/docker.md
       - 'SRE':
